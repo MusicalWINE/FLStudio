@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=FLStudio
+Exec=wine /home/$USER/.wine/drive_c/Program Files/Image-Line/FL Studio 2024/FL64.exe
+Type=Application
+Icon=F269_FL64.0
