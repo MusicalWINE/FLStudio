@@ -1,0 +1,1 @@
+From my very basic testing, the program looks like it works all the way. I think one of the issues I ran into was the "Sound" panel being black. The tabs wern't, but when you click on the "Sound" panel, the actual panel was black. I don't know why or how to fix it, but it's better to know what's going on. 
