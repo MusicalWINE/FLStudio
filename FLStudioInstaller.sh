@@ -9,8 +9,10 @@ echo "Please go through the installer prompts and let the installation finish."
 echo "When asked if you want the installer to do you or everyone, choose the option for just you."
 wine ~/Downloads/FLStudio.exe
 
-#Download the custom-made .desktop file for FLStudio
+#Download the custom-made .desktop file for FLStudio and ASIO4ALL. DELETE THE OLD ONES FIRST!
+rm -rf ~/Desktop/FLStudio.desktop && rm -rf ~/Desktop/ASIO4ALL.desktop
 curl https://gitlab.com/winemusiccreation/flstudio/-/raw/main/FLStudio.desktop --output ~/Desktop/FlStudio.desktop
+curl https://gitlab.com/winemusiccreation/flstudio/-/raw/main/ASIO4ALL.desktop --output ~/Desktop/ASIO4ALL.desktop
 
 #Tell the user that the installation is done and that we'll be removing the installer. 
 echo "The installation is completed and we'll be removing the installer from your Downloads folder! 
