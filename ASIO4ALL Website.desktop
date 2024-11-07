@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name= ASIO4All Web Site
+Exec="/home/$USER/.wine/drive_c/Program Files (x86)/ASIO4ALL v2/ASIO4ALL Web Site.url"
+Type=Application 
+Icon=3531_uninstall.0
+StartupWMClass=asio4all web site.url
